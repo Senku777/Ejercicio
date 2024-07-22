@@ -1,0 +1,81 @@
+.box{
+    width: 40%;
+    height: 55%;
+    margin: auto;
+    margin-top: 8%;
+    border-radius: 15px;
+    background-color: #e2e2e2;
+    box-shadow: 0 0 50px 0 #0007;
+}
+
+a{
+    text-decoration: none;
+    color:  rgb(52, 52, 70);
+    font-family: sans-serif;
+}
+
+.Encabezado{
+    display: flex;
+    border-bottom: 1px solid rgb(83, 84, 90);
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+
+div a{
+    margin-left: 10px;
+}
+
+.Encabezado_Subtitulo{
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.Imagen{
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+h3{
+    font-size: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.Formulario{
+    padding: 5px;
+    margin-bottom: 3px;
+} 
+
+
+label{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-family: sans-serif;
+    justify-content: center;
+    padding: 12px;
+}
+
+input{
+    align-self: end;
+    margin-right: 15px;
+}
+
+
+.Input_Buttom{
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    padding: 8px 90px;
+    margin-bottom: 25px;
+    background-color: rgb(1, 11, 82);
+    color: #e2e2e2;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+}
