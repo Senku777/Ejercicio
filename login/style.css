@@ -36,6 +36,9 @@ input{
     font-family: sans-serif;
 }
 
+input:invalid{
+    color: rgb(200, 50, 0);
+}
 .Cambiar_password{
     display: flex;
     justify-content: end;
